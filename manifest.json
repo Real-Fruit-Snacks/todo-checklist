@@ -1,0 +1,10 @@
+{
+    "id": "todo-checklist",
+    "name": "Todo Checklist Pro",
+    "version": "2.5.1",
+    "minAppVersion": "1.2.0",
+    "description": "A powerful sidebar todo manager with keyboard navigation, undo, priorities, due dates/times, recurring tasks, subtasks, multiple projects, smart lists, tags, search, and Full Calendar integration.",
+    "author": "Real-Fruit-Snacks",
+    "authorUrl": "https://github.com/Real-Fruit-Snacks",
+    "isDesktopOnly": true
+}

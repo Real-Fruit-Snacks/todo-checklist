@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build artifacts (DO NOT ignore main.js - needed for releases)
+# main.js
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Plugin data (user data, should not be committed)
+data.json
+
+# Development files (optional - may want to include for transparency)
+# .claude/
