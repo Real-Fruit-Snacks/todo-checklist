@@ -1,9 +1,6 @@
 # Dependencies
 node_modules/
 
-# Build artifacts (DO NOT ignore main.js - needed for releases)
-# main.js
-
 # IDE
 .idea/
 .vscode/
@@ -17,8 +14,20 @@ Thumbs.db
 *.log
 npm-debug.log*
 
-# Plugin data (user data, should not be committed)
+# Plugin user data (not source code)
 data.json
 
-# Development files (optional - may want to include for transparency)
-# .claude/
+# AI Development Tools
+.claude/
+CLAUDE.md
+GEMINI.md
+
+# Internal Development Documents
+plugin_analysis_report.md
+fix_changelog.md
+fix_verification_report.md
+github_release_prep_report.md
+SUBMISSION_CHECKLIST.md
+
+# Other development files
+*.local.json
